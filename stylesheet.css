@@ -1,0 +1,101 @@
+body{
+    background-color: #0e1923;
+    color: #ff4b50;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.button_all{
+    padding: 10px;
+}
+.button_duelist{
+    padding: 10px;
+}
+.button_controller{
+    padding: 10px;
+}
+.button_sentinel{
+    padding: 10px;
+}
+.button_initiator{
+    padding: 10px;
+}
+tr{
+    background-color: #ff4b50;
+    color: white;
+}
+td {
+    height: 20px;
+    vertical-align: bottom;
+    background-color: #081017;
+    color: #ff4b50;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+    background-color: #081017;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, td, th {
+    border: 1px solid #0e1923;
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: #081017;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.card_image{
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.card2{
+    background-color: #081017;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 30px;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.ability1{
+
+}
+.ability2{
+
+}
+.ability3{
+
+}
+
+#navbar {
+    transform: translateY(-100%); /* normal, hidden state */
+}
+
+.nav-container:hover #navbar {
+    transform: translateY(0); /* when parent is hovered */
+}
